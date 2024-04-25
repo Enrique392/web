@@ -48,7 +48,7 @@ forms_add_on
 
   <p>
     <label for="edad">Edad</label>
-    <input type="number" id="edad" size="3">
+    <input type="text" id="edad" maxlength="3" size="3" min="0" max="100">
   </p>
 
   <p>
